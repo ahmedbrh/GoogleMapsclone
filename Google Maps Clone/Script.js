@@ -31,7 +31,7 @@ const directions = new MapboxDirections({
  
   });
   map.addControl(directions, 'top-left');
-/////////////////////////////////////////////////////////////////////////////////////////////////////// marker 
+
 
 
   // const marker = new mapboxgl.Marker()
@@ -48,7 +48,7 @@ enableHighAccuracy: true
 trackUserLocation: true
 })
 );	
-/////////////////////////////////////
+
 
 
 }
